@@ -84,14 +84,14 @@ def clear():
 def back():
 	login()
 
-ahsan="Mr-"
+ahsan="Zee-"
 imt="-2.0=="
-ak="K4US4R-"
+ak="Em-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.emzee-cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.emzee-cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
 def login():
@@ -1292,10 +1292,10 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.emzee', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/baizidstudio/Approval.txt").text
+	r1=requests.get("https://pastebin.com/raw/jNXEP7EH").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1308,7 +1308,7 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m BAIZID Tool Paid You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Zee Tool Paid You Need Get Approved First\033[1;37m\n")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
@@ -1321,7 +1321,7 @@ def Subscraption():
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start https://wa.me/+8801409808749?text=' + tks)
+		os.system('am start https://wa.me/+923040754271?text=' + tks)
 		Subscraption()        
 		
 Subscraption()

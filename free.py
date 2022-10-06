@@ -855,7 +855,7 @@ class Main:
 				print("\r \033[0;92m[ Zee-OK ] %s | %s\033[0;92m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open(2009-Zee-OK.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-Zee-OK.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ Zee-OK ] %s | %s\033[0;92m         "%(uid, pw))
